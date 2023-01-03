@@ -1,0 +1,274 @@
+    /*Fundo do fundo da pagina*/
+
+    .fundo1{
+    background-color: white;
+
+
+    }
+
+    /* Bem vindo */ 
+
+    .dificuldade{
+    font-family: 'Aclonica';
+    color: black;
+    background-color:white;
+    text-align: center;
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    padding-bottom: 3%;  
+    margin-top: 2%;
+    margin-bottom: 5% ;
+
+    }
+
+    .centro{
+
+    display: flex;
+    justify-content: center;
+
+    }
+
+    .menu{
+    width: 350px; /* Largura */
+    height: 90px; /* Altura*/
+    background-color: #fff200;
+    font-size: 28px;
+    margin-top: -3%;
+    border-radius: 8px;
+
+    }
+
+    .menulista li{
+    list-style: none;
+    float:left;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
+    }
+
+    /*Letra*/
+
+    .menulista li a{
+        
+    font-family: 'Aclonica';
+    color: black;
+    text-decoration: none;
+    padding: 21px;
+
+    }
+
+    .menulista li a:hover{
+    background-color: black;
+    color: yellow;
+
+    }
+
+    /* ---- Moldura externa ----*/
+
+    .Principal{
+
+    margin-top: 1%;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #2d3436;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #Titulo2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+
+    }
+
+    /* ---- Nome do jogador + IA  dentro do quadrado de tag cartas // padding e margin nao ocupar espaço ----*/
+
+    #jogador{
+    text-align: left;
+
+    }
+
+    #computador{
+    text-align: right;
+
+    }
+
+    #jogador, #computador{
+        font-family: 'Aclonica';
+    margin: 0;
+    padding: 0;
+
+    }
+
+    /* Posição, tamanho e fonte dos pontos */ 
+
+    #pontos-jogador, #pontos-computador{
+    position: absolute;
+    font-size: 40px;
+
+    }
+
+    #pontos-jogador{
+    right: 20px;
+
+    }
+
+    #pontos-computador{
+    left: 20px;
+
+    }
+
+
+    /* ---- Placar ----*/
+
+    #placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    /* ---- Versus ----*/
+
+    #versus{
+    width: 90px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Aclonica';
+    color: black;
+
+    }
+
+    /* ---- Divisoes das escolhas ----*/
+
+    #jogador, #computador {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    color: #fff;
+
+    }
+ 
+    /* ---- Cor dos jogadores ----*/
+
+    #jogador{
+    background-color: #2980b9;
+
+    }
+    #computador{
+    background-color: #e67e22;
+
+    }
+
+    /* ---- Texto e Posições das cartas, também posição vertical pra horizontal ----*/
+
+    ul#escolhaPY, ul#escolhaIA{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    }
+
+    ul#escolhaPY li, ul#escolhaIA li{
+    display: inline;
+    
+    }
+
+    /* ---- efeito de opacidade na seleção ----*/
+
+    ul#escolhaPY li a , ul#escolhaIA li a{
+    opacity: .1;
+
+    }
+
+    ul#escolhaPY li a:hover, ul#escolhaPY li a.selecionado, ul#escolhaIA li a.selecionado{
+    opacity: .8;
+        
+    }
+
+    ul#escolhaPY li a img, ul#escolhaIA li a img{
+    max-width: 200px;
+    
+    }
+
+    /* -- mensagem do resultado -- */ 
+
+    #Aguardando{
+    border-radius: 8px;
+    background-color: #fff200;
+    font-family: 'Aclonica';
+    font-size: 38px;
+    color: black;
+    margin: 50px 0;
+    padding: 30px;
+    text-align: center;
+
+    }
+    
+    div.borda1{
+        border: 3px solid black;
+        color: black;
+        margin-top: 0.5%;
+        border-radius: 5px;
+        margin-bottom: 1.5%;
+    }
+    p.regras{
+        margin-top: 2%;
+        font-family: 'Aclonica';
+        font-size: 32px;
+        border: 3.5px solid black;
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px;
+        width: 15%;
+        margin-left: 42%;
+
+    }
+
+
+    p.explicar img{
+        height: 60%;
+        width: 45%;
+        list-style:none;
+        
+    }
+
+    /* Rodapé*/
+
+    .rodape{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        background-color: black;
+        width: 100.7%;
+        height: 10%;
+        list-style:none;
+        margin-left: -8px;
+        margin-bottom: -8px;
+    }
+
+    .texto a {
+        list-style:none;
+        font-family: 'Aclonica';
+        font-size: 25px;
+        Color: white;
+        text-decoration: none;
+        padding-left: 15px;
+    
+    }
+
+    .texto img{
+        padding-left: 10px;
+        width: 2.7%;
+        border-radius: 50%;
+        color: white;
+       
+
+    }
+
+
